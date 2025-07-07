@@ -56,3 +56,5 @@ def on_press(key):
 # התחלת האזנה
 with Listener(on_press=on_press) as listener:
     listener.join()
+
+print('אהלן אהלן')
